@@ -90,6 +90,7 @@
   background-color: #f0f4f9;
   padding: 10px 20px;
   border-radius: 50px;
+  margin-top: 20px;
 }
 
 .search-box img {
@@ -98,6 +99,7 @@
 }
 
 .search-box input {
+  
   flex: 1;
   background: transparent;
   border: none;
@@ -178,4 +180,21 @@
   font-size: 17px;
   font-weight: 300;
   line-height: 1.8;
+}
+
+@media (max-width:600) {
+  .main-bottom input{
+    flex: none;
+    width: 150px;
+  }
+  .main-bottom img{
+    width: 20px;
+
+  }
+  .search-box{
+    padding: 5px 10px;
+  }
+  .search-box div{
+    gap: 5px;
+  }
 }
