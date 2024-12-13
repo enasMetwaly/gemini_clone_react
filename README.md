@@ -56,5 +56,6 @@ Ensure you have the following installed on your system:
 ### Steps
 1. Clone the repository:
    ```bash
-https://github.com/enasMetwaly/gemini_clone_react
+   git clone https://github.com/enasMetwaly/gemini_clone_react
+
 
